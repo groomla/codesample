@@ -1,0 +1,92 @@
+@import '../../../../styles/styleguide.scss';
+
+.register-dialog-content-wrap {
+	width: 700px;
+	padding: 20px 65px;
+	box-sizing: border-box;
+
+	.agreement {
+		font-size: 12px;
+		line-height: 130%;
+		margin: 10px 0;
+		overflow: hidden;
+
+		a {
+			color: $sg-2019_blue-normal;
+		}
+	}
+
+	.icon {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		white-space: pre-line;
+		margin: 40px 0;
+
+		.image {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-end;
+			width: 85px;
+			height: 85px;
+			margin: 0 0 20px 0;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 85px;
+				height: 85px;
+				background-color: $sg-2019_yellow-normal;
+				border-radius: 50%;
+				opacity: 0.3;
+			}
+
+			img {
+				z-index: 1;
+				padding: 5px;
+			}
+		}
+	}
+
+	.succeed-message,
+	.failed-message {
+		font-size: 25px;
+		font-weight: bold;
+		white-space: pre-line;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.sub-message {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+
+		.value {
+			padding-left: 5px;
+			font-weight: bold;
+		}
+	}
+
+	#button-register {
+		display: block;
+		margin: 60px auto;
+	}
+
+	#button-confirm {
+		display: block;
+		margin: 60px auto 30px;
+	}
+
+	#button-succeed,
+	#button-failed {
+		display: block;
+		margin: 110px auto 30px;
+	}
+}

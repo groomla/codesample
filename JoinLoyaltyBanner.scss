@@ -1,0 +1,43 @@
+@import 'src/styles/styleguide';
+
+#banner-loyalty-1 {
+	position: relative;
+	width: 790px;
+	height: 400px;
+	background-position: right bottom;
+	background-image: url('~/images-new/banners/banner-loyalty-1.jpg');
+	border-radius: 10px;
+
+	.banner-text-1 {
+		position: absolute;
+		top: 30px;
+		left: 30px;
+		width: 270px;
+		font-size: 17px;
+	}
+
+	.banner-text-2 {
+		position: absolute;
+		top: 140px;
+		left: 30px;
+		width: 270px;
+		font-size: 25px;
+		font-weight: bold;
+		white-space: pre-wrap;
+	}
+
+	#join-loyalty-button {
+		position: absolute;
+		top: 250px;
+		left: 30px;
+		display: inline-block;
+		color: white;
+		font-size: 20px;
+		line-height: 100%;
+		padding: 13px 50px 15px;
+		margin: 30px 0 0;
+		border-radius: 5px;
+		background: $sg-2019_red-normal;
+		cursor: pointer;
+	}
+}

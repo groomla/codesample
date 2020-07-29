@@ -1,0 +1,44 @@
+@import 'src/styles/styleguide';
+
+#loyalty-country-icons {
+	display: flex;
+	justify-content: space-evenly;
+
+	.icon {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		white-space: pre-line;
+		margin: 40px 0 0;
+
+		.image {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-end;
+			width: 85px;
+			height: 85px;
+			margin: 0 0 20px 0;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 85px;
+				height: 85px;
+				background-color: $sg-2019_yellow-normal;
+				border-radius: 50%;
+				opacity: 0.3;
+			}
+
+			img {
+				z-index: 1;
+				padding: 5px;
+			}
+		}
+	}
+}

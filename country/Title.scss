@@ -1,0 +1,43 @@
+@import 'src/styles/styleguide';
+
+#loyalty-country-title {
+	text-align: center;
+
+	.header {
+		font-size: 40px;
+		margin: 40px 0 0;
+		white-space: pre-line;
+	}
+
+	.header2 {
+		font-size: 30px;
+		font-weight: bold;
+		margin: 60px 0 0;
+		white-space: pre-line;
+	}
+
+	.sub-header {
+		font-size: 20px;
+		margin: 20px 0 0;
+	}
+
+	#button-join {
+		color: white;
+		font-size: 20px;
+		line-height: 100%;
+		padding: 13px 50px 15px;
+		margin: 30px 0 0;
+		background: $sg-2019_red-normal;
+	}
+
+	.country-label {
+		font-size: 17px;
+		color: $lighten-gray;
+		margin: 35px 0 0;
+	}
+
+	.country-name {
+		font-size: 40px;
+		padding: 15px;
+	}
+}

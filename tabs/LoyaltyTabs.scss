@@ -1,0 +1,25 @@
+@import 'src/styles/styleguide';
+
+.loyalty-tabs-wrap {
+	display: flex;
+	margin: 0 -100%;
+	justify-content: center;
+	border-bottom: 1px solid $sg-2019_light-gray;
+
+	.loyalty-tabs {
+		width: 115.2rem;
+		justify-content: start;
+		margin: 0 0 0 -40px;
+
+		.loyalty-tab {
+			display: inline-block;
+			padding: 0 20px 17px;
+			cursor: pointer;
+			border-bottom: 3px solid transparent;
+
+			&.active {
+				border-color: black;
+			}
+		}
+	}
+}

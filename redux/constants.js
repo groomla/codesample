@@ -1,0 +1,46 @@
+export const LOYALTY_TABS = {
+	COUNTRY: 'country',
+	ORDERS: 'orders',
+	DETAILS: 'data',
+};
+
+export const LOYALTY_ROUTES = {
+	COUNTRY: '/personalcabinet/',
+	ORDERS: '/personalcabinet/orders/',
+	DETAILS: '/personalcabinet/data/',
+};
+
+export const LOYALTY_STATUS = {
+	NOT_MEMBER: 'NotMember',
+	POSSIBLE_MEMBER: 'PossibleMember',
+	MEMBER: 'Member',
+};
+
+export const REGISTER_DIALOG_TYPE = {
+	REGISTER: 1,
+	SUCCEED: 2,
+	FAILED: 3,
+};
+
+export const FORM_VALIDATION = {
+	phoneRegex: /\+7|\(|\)|\s|-/g,
+	emailRegex: /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i,
+};
+
+export const LOYALTY_ACTIONS = {
+	MEMBER_STATUS_REQUESTED: 'MEMBER_STATUS_REQUESTED',
+	MEMBER_STATUS_SUCCEED: 'MEMBER_STATUS_SUCCEED',
+	MEMBER_STATUS_FAILED: 'MEMBER_STATUS_FAILED',
+
+	COUNTRIES_LIST_REQUESTED: 'COUNTRIES_LIST_REQUESTED',
+	COUNTRIES_LIST_SUCCEED: 'COUNTRIES_LIST_SUCCEED',
+	COUNTRIES_LIST_FAILED: 'COUNTRIES_LIST_FAILED',
+
+	APPLY_COUNTRY_REQUESTED: 'APPLY_COUNTRY_REQUESTED',
+	APPLY_COUNTRY_SUCCEED: 'APPLY_COUNTRY_SUCCEED',
+	APPLY_COUNTRY_FAILED: 'APPLY_COUNTRY_FAILED',
+
+	SAVE_DETAILS_REQUESTED: 'SAVE_DETAILS_REQUESTED',
+	SAVE_DETAILS_SUCCEED: 'SAVE_DETAILS_SUCCEED',
+	SAVE_DETAILS_FAILED: 'SAVE_DETAILS_FAILED',
+};
